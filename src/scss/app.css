@@ -1,0 +1,286 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input,
+textarea,
+select {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.resume-bulder-wrapper {
+  max-width: 700px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+.resume-bulder-wrapper .resume-layout .container {
+  max-width: 700px;
+  background: #fff;
+  margin: 0px auto 0px;
+  -webkit-box-shadow: 1px 1px 2px #DAD7D7;
+          box-shadow: 1px 1px 2px #DAD7D7;
+  border-radius: 3px;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.resume-bulder-wrapper .resume-layout .header {
+  margin-bottom: 30px;
+}
+
+.resume-bulder-wrapper .resume-layout .header .full-name {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.resume-bulder-wrapper .resume-layout .header .first-name {
+  font-weight: 700;
+}
+
+.resume-bulder-wrapper .resume-layout .header .last-name {
+  font-weight: 300;
+}
+
+.resume-bulder-wrapper .resume-layout .header .contact-info {
+  margin-bottom: 20px;
+}
+
+.resume-bulder-wrapper .resume-layout .header .email,
+.resume-bulder-wrapper .resume-layout .header .phone {
+  color: #999;
+  font-weight: 300;
+}
+
+.resume-bulder-wrapper .resume-layout .header .separator {
+  height: 10px;
+  display: inline-block;
+  border-left: 2px solid #999;
+  margin: 0px 10px;
+}
+
+.resume-bulder-wrapper .resume-layout .header .position {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+.resume-bulder-wrapper .resume-layout .details {
+  line-height: 20px;
+}
+
+.resume-bulder-wrapper .resume-layout .details .section {
+  margin-bottom: 40px;
+}
+
+.resume-bulder-wrapper .resume-layout .details .section:last-of-type {
+  margin-bottom: 0px;
+}
+
+.resume-bulder-wrapper .resume-layout .details .section__title {
+  letter-spacing: 2px;
+  color: #54AFE4;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.resume-bulder-wrapper .resume-layout .details .section__list-item {
+  margin-bottom: 40px;
+}
+
+.resume-bulder-wrapper .resume-layout .details .section__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.resume-bulder-wrapper .resume-layout .details .left,
+.resume-bulder-wrapper .resume-layout .details .right {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.resume-bulder-wrapper .resume-layout .details .left {
+  width: 60%;
+}
+
+.resume-bulder-wrapper .resume-layout .details .right {
+  tex-align: right;
+  width: 39%;
+}
+
+.resume-bulder-wrapper .resume-layout .details .name {
+  font-weight: bold;
+}
+
+.resume-bulder-wrapper .resume-layout .details a {
+  text-decoration: none;
+  color: #000;
+  font-style: italic;
+}
+
+.resume-bulder-wrapper .resume-layout .details a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.resume-bulder-wrapper .resume-layout .details .skills__item {
+  margin-bottom: 10px;
+}
+
+.resume-bulder-wrapper .resume-layout .details .skills__item .right input {
+  display: none;
+}
+
+.resume-bulder-wrapper .resume-layout .details .skills__item .right label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #C3DEF3;
+  border-radius: 20px;
+  margin-right: 3px;
+}
+
+.resume-bulder-wrapper .resume-layout .details .skills__item .right input:checked + label {
+  background: #79A9CE;
+}
+
+.resume-bulder-wrapper .form-fileds .title {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 26px;
+}
+
+.resume-bulder-wrapper .form-fileds .form-input label {
+  color: #333;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.resume-bulder-wrapper .form-fileds .form-input input,
+.resume-bulder-wrapper .form-fileds .form-input textarea,
+.resume-bulder-wrapper .form-fileds .form-input select {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+          box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+
+.resume-bulder-wrapper .form-fileds .form-input input[type="radio"],
+.resume-bulder-wrapper .form-fileds .form-input input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+.resume-bulder-wrapper .form-fileds .form-input select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+.resume-bulder-wrapper .tags-input-container {
+  border: 2px solid #000;
+  padding: .5em;
+  border-radius: 3px;
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: .5em;
+}
+
+.resume-bulder-wrapper .tags-input-container .tag-item {
+  background-color: #dad8d8;
+  display: inline-block;
+  padding: .5em .75em;
+  border-radius: 20px;
+}
+
+.resume-bulder-wrapper .tags-input-container .tags-input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 1.5em 11px;
+  border: none;
+  outline: none;
+}
+
+.resume-bulder-wrapper .btn {
+  display: block;
+  width: 100%;
+  padding: 5px 0;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid #f4f7f8;
+}
+/*# sourceMappingURL=app.css.map */
