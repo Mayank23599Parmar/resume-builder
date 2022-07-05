@@ -3,7 +3,7 @@ import React from 'react'
 export default function ResumeLayout(props) {
     const {name,birthDate,email,about,expireince,education,project,skils,languges}=props.data
     return (
-        <div classNameName='resume-layout'>
+        <div className='resume-layout'>
             <div className="container">
                 <div className="header">
                     <div className="full-name">
